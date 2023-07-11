@@ -6,9 +6,40 @@
     <link href="/dist/output.css" rel="stylesheet">
     <title>Instagram</title>
 </head>
-<body>
-    <h1 class="text-red-600">
-        Hello World
-    </h1>
+<body> 
+    <div class="sticky top-0 border-b shadow-sm bg-white z-30">
+     <!-- HEADER  -->
+     <div class="flex justify-between h-24 items-center mx-4 xl:max-w-6xl xl:mx-auto">
+      <!-- LEFT -->
+      <div class="cursor-pointer w-32 hidden lg:inline-grid">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/2560px-Instagram_logo.svg.png" alt="Instagram-Icon">
+</div>
+<div class="cursor-pointer w-10 lg:hidden">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/800px-Instagram-Icon.png" alt="Instagram-Icon">
+          </div>
+      <!-- MIDDLE -->
+    <div class="relative">
+        <div class="absolute top-2 left-2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-gray-500">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+              </svg>              
+        </div>
+        <input class="border px-10 rounded-md focus:ring-black focus:border-black bg-gray-50 border-gray-400 text-sm" type="text" placeholder="Search">
+    </div>
+    <!-- right -->
+    <div class="flex space-x-4 items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer hover:scale-125 transition-trasfrom duration-200 ease-out hidden md:inline-flex">
+            <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+            <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer hover:scale-125 transition-trasfrom duration-200 ease-out">
+            <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 9a.75.75 0 00-1.5 0v2.25H9a.75.75 0 000 1.5h2.25V15a.75.75 0 001.5 0v-2.25H15a.75.75 0 000-1.5h-2.25V9z" clip-rule="evenodd" />
+          </svg>
+        <img class="w-10 rounded-full cursor-pointer border border-red-950" src="https://images.unsplash.com/photo-1536104968055-4d61aa56f46a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80" alt="">                    
+    </div>
+    </div>
+
+
+    </div>
 </body>
 </html>
